@@ -123,6 +123,172 @@ a {
     padding: 0;
 }
 
+
+/* Add responsive styles for screens narrower than 640px */
+@media (max-width: 640px) {
+    .bigbox {
+        flex-direction: column;
+    }
+
+    .main-nav {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .main-nav a {
+        padding: 10px 0;
+    }
+    .header {
+        flex-direction: column;
+        align-items: center;
+    }
+    .language-option {
+        margin-top: 20px;
+    }
+
+    .dropdown-content {
+        position: relative;
+        top: 0;
+        left: 0;
+        transform: none;
+        background-color: #000000;
+        width: 100%;
+        padding: 12px 0;
+    }
+
+    .dropdown-content > p {
+        text-align: center;
+    }
+
+    .dropdown-content > p > img {
+        margin: 0 auto;
+        display: block;
+    }
+
+    .hero-sec {
+        height: 600px; /* Adjust height as needed */
+        background-size: cover;
+    }
+    #hero-headline {
+        margin-left: 0;
+        text-align: center;
+    }
+
+    #hero-headline p {
+        font-size: 24px;
+        max-width: 100%;
+        margin-top: 8%;
+    }
+
+    h1 {
+        font-size: 3rem;
+    }
+
+    .ongoing-exhib-grid {
+        grid-template-columns: repeat(1, 1fr); /* Display one column per row */
+        gap: 20px;
+    }
+
+    .oe-flex {
+        text-align: center;
+    }
+
+    img.oe-flex-item {
+        width: 100%;
+        height: auto;
+    }
+
+    h3,
+    p.oe-flex-item {
+        margin-top: 10px;
+        max-width: 100%;
+    }
+
+    .our-gallery-img {
+        width: 100%;
+        height: auto;
+        margin: 10px 0;
+    }
+
+    .our-gallery-btn {
+        margin-top: 0;
+        text-align: center;
+    }
+    #explore-gallery {
+        margin-top: 10px;
+    }
+
+    .artisan-hub-p {
+        font-size: 24px;
+        text-align: center;
+        margin-top: 20px;
+    }
+
+    .artisan-hub-info-grid {
+        display: block;
+        text-align: center;
+    }
+    .artisan-hub-img {
+        width: 100%;
+        height: auto;
+    }
+
+    .artisan1 {
+        width: 100%;
+        height: auto;
+    }
+
+    .artisan-info {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .artisan-info img {
+        width: 100%;
+        height: auto;
+        margin-right: 0;
+        margin-bottom: 10px;
+    }
+
+    .artisan-info-details {
+        margin-top: 10px;
+        text-align: center;
+    }
+    .upcoming-exhib {
+        font-size: 24px;
+        text-align: center;
+        margin-left: 0;
+    }
+
+    .row {
+        padding-top: 20px;
+    }
+
+    .column {
+        width: 100%;
+        padding: 10px 20px;
+    }
+
+
+
+    
+}
+
+/* .bigbox{
+    display:flex;
+}
+
+@media (min-width:640px) {
+    .bigbox{
+        flex-direction:row;
+    }
+}
+@media (max-width:640px) {
+    .bigbox{
+        flex-direction: column;
+    }
+} */
+
 /*dark theme*/
 .light-mode {
     background-color: white;
